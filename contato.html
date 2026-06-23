@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aline Marostegan | Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menu de navegação fixo no topo -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Sobre mim</a></li>
+      <li><a href="formacao.html">Formação</a></li>
+      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="contato.html" class="ativo">Contato</a></li>
+    </ul>
+    <!-- Botão para alternar entre tema claro e escuro -->
+    <button id="btn-tema" onclick="alternarTema()">🌙 Tema Escuro</button>
+  </nav>
+
+  <!-- Conteúdo principal da página Contato -->
+  <main>
+    <section class="contato">
+
+      <h1>📬 Contato</h1>
+      <p>Quer entrar em contato comigo? Preencha o formulário abaixo e responderei em breve!</p>
+
+      <!-- Formulário de contato com validação em JavaScript -->
+      <div class="form-container">
+        <div class="form-group">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" placeholder="Digite seu nome completo">
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="Digite seu e-mail">
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" rows="6" placeholder="Digite sua mensagem aqui..."></textarea>
+        </div>
+
+        <!-- Mensagem de erro ou sucesso exibida pelo JavaScript -->
+        <div id="mensagem-retorno"></div>
+
+        <button onclick="enviarFormulario()">📨 Enviar Mensagem</button>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <p>© 2025 Aline Marostegan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
