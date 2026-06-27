@@ -1,5 +1,6 @@
 // =========================================
 // FUNÇÃO: Alternar entre tema claro e escuro
+// ALTERAÇÃO 1: emoji trocado para ícone de interruptor ⏻
 // =========================================
 function alternarTema() {
   const body = document.body;
@@ -10,9 +11,9 @@ function alternarTema() {
 
   // Muda o texto do botão conforme o tema ativo
   if (body.classList.contains('tema-escuro')) {
-    btn.textContent = '☀️ Tema Claro';
+    btn.textContent = '⏻ Tema Claro';
   } else {
-    btn.textContent = '🌙 Tema Escuro';
+    btn.textContent = '⏻ Tema Escuro';
   }
 }
 
