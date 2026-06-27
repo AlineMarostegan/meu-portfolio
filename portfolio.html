@@ -17,7 +17,7 @@
       <li><a href="contato.html">Contato</a></li>
     </ul>
     <!-- Botão para alternar entre tema claro e escuro -->
-    <button id="btn-tema" onclick="alternarTema()">🌙 Tema Escuro</button>
+    <button id="btn-tema" onclick="alternarTema()">⏻ Tema Escuro</button>
   </nav>
 
   <!-- Conteúdo principal da página Portfólio -->
@@ -27,12 +27,12 @@
       <h1>💼 Portfólio</h1>
       <p>Aqui você encontra os projetos que desenvolvi ao longo da minha formação acadêmica e profissional.</p>
 
-      <!-- Projeto 1 -->
+      <!-- Projeto 1: App de Música -->
       <div class="card projeto">
         <h2>🎵 App de Aulas de Instrumentos Musicais</h2>
-        <p><strong>Tipo:</strong> Projeto Extensionista — Faculdade Uninter</p>
+        <p><strong>Disciplina:</strong> Projeto Extensionista — Faculdade Uninter</p>
         <p><strong>Desenvolvido em parceria com:</strong> Rebeca (colega de curso)</p>
-        <p><strong>Status:</strong> Protótipo concluído — aguardando avaliação</p>
+        <p><strong>Status:</strong> ✅ Concluído</p>
 
         <h3>Sobre o projeto</h3>
         <p>Desenvolvemos um protótipo de aplicativo voltado para o ensino de instrumentos musicais de forma online, conectando professores e alunos em um ambiente digital completo e interativo.</p>
@@ -50,18 +50,110 @@
         <p>Democratizar o acesso ao ensino musical, oferecendo uma plataforma acessível, organizada e interativa para alunos e professores de instrumentos musicais.</p>
       </div>
 
-      <!-- Aviso de portfólio em crescimento -->
-      <div class="card em-construcao">
-        <h2>🚧 Portfólio em construção</h2>
-        <p>Estou no início da minha jornada na área de Tecnologia da Informação e novos projetos serão adicionados conforme avanço na formação. Fique à vontade para entrar em contato!</p>
+      <!-- Projeto 2: Cofrinho em Java -->
+      <div class="card projeto">
+        <h2>🪙 Sistema Cofrinho de Moedas — Java</h2>
+        <p><strong>Disciplina:</strong> Programação Orientada a Objetos</p>
+        <p><strong>Linguagem:</strong> Java</p>
+        <p><strong>Status:</strong> ✅ Concluído</p>
+
+        <h3>Sobre o projeto</h3>
+        <p>Sistema que emula um cofrinho de moedas internacionais, desenvolvido com foco nos conceitos de herança e polimorfismo em Java.</p>
+
+        <h3>Funcionalidades</h3>
+        <ul>
+          <li>➕ Adicionar moedas de diferentes valores e países (Real, Dólar, Euro, etc.)</li>
+          <li>➖ Remover moedas específicas do cofrinho</li>
+          <li>📋 Listar todas as moedas armazenadas</li>
+          <li>💱 Calcular o total convertido para Real Brasileiro</li>
+        </ul>
+
+        <h3>Conceitos aplicados</h3>
+        <ul>
+          <li>Herança: classe abstrata <code>Moeda</code> com subclasses <code>Real</code>, <code>Dolar</code>, <code>Euro</code></li>
+          <li>Polimorfismo: cada moeda calcula sua conversão de forma independente</li>
+          <li>Coleções: uso de <code>ArrayList</code> para gerenciar as moedas</li>
+        </ul>
+      </div>
+
+      <!-- Projeto 3: Lógica em Python -->
+      <div class="card projeto">
+        <h2>🐍 Calculadora de Plano de Saúde — Python</h2>
+        <p><strong>Disciplina:</strong> Lógica de Programação e Algoritmos</p>
+        <p><strong>Linguagem:</strong> Python</p>
+        <p><strong>Status:</strong> ✅ Concluído</p>
+
+        <h3>Sobre o projeto</h3>
+        <p>Programa que calcula o valor mensal de um plano de saúde com base na idade do cliente e no valor base informado, aplicando regras de desconto e acréscimo conforme faixas etárias.</p>
+
+        <h3>Funcionalidades</h3>
+        <ul>
+          <li>👤 Exibe mensagem de boas-vindas com nome e sobrenome</li>
+          <li>⌨️ Leitura do valor base do plano e da idade via <code>input</code></li>
+          <li>📐 Aplicação de regras por faixa etária usando <code>if</code>, <code>elif</code> e <code>else</code></li>
+          <li>💰 Cálculo e exibição do valor mensal final</li>
+          <li>📝 Código comentado seguindo as exigências da disciplina</li>
+        </ul>
+      </div>
+
+      <!-- Projeto 4: App Pizzaria -->
+      <div class="card projeto">
+        <h2>🍕 Interface de Pedidos — Pizzaria</h2>
+        <p><strong>Disciplina:</strong> Programação</p>
+        <p><strong>Status:</strong> ✅ Concluído</p>
+
+        <h3>Sobre o projeto</h3>
+        <p>Interface de cliente para retirada de pedidos em uma pizzaria que comercializa pizzas doces e salgadas, desenvolvida em equipe. Fiquei responsável pela parte de interação com o cliente.</p>
+
+        <h3>Funcionalidades</h3>
+        <ul>
+          <li>🍕 Exibição do cardápio com pizzas doces e salgadas</li>
+          <li>🛒 Seleção de sabores e montagem do pedido</li>
+          <li>📦 Interface para retirada do produto</li>
+        </ul>
+      </div>
+
+      <!-- Projeto 5: Sistema de Vendas de Madeira -->
+      <div class="card projeto">
+        <h2>🪵 Sistema de Vendas — Empresa de Madeira</h2>
+        <p><strong>Disciplina:</strong> Programação</p>
+        <p><strong>Status:</strong> ✅ Concluído</p>
+
+        <h3>Sobre o projeto</h3>
+        <p>Sistema de venda desenvolvido para uma empresa que comercializa toras de árvore para revendedores de madeira. Responsável pela interface de atendimento ao cliente.</p>
+
+        <h3>Funcionalidades</h3>
+        <ul>
+          <li>🪵 Catálogo de produtos disponíveis (toras por tipo e volume)</li>
+          <li>🧾 Geração do pedido com valores calculados automaticamente</li>
+          <li>👤 Interface direta com o cliente final</li>
+        </ul>
+      </div>
+
+      <!-- Projeto 6: Gerenciamento de Contatos -->
+      <div class="card projeto">
+        <h2>📇 Software de Gerenciamento de Contatos Comerciais</h2>
+        <p><strong>Disciplina:</strong> Programação</p>
+        <p><strong>Status:</strong> ✅ Concluído</p>
+
+        <h3>Sobre o projeto</h3>
+        <p>Software desenvolvido para uma pequena empresa com o objetivo de gerenciar seus contatos comerciais de forma organizada e eficiente.</p>
+
+        <h3>Funcionalidades</h3>
+        <ul>
+          <li>➕ Cadastro de novos contatos comerciais</li>
+          <li>🔍 Busca e listagem de contatos</li>
+          <li>✏️ Edição e atualização de informações</li>
+          <li>🗑️ Remoção de contatos</li>
+        </ul>
       </div>
 
     </section>
   </main>
 
-  <!-- Rodapé da página -->
+  <!-- Rodapé atualizado para 2026 -->
   <footer>
-    <p>© 2025 Aline Marostegan</p>
+    <p>© 2026 Aline Marostegan</p>
   </footer>
 
   <script src="script.js"></script>
