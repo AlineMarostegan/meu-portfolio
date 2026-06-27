@@ -1,6 +1,6 @@
 // =========================================
 // FUNÇÃO: Alternar entre tema claro e escuro
-// ALTERAÇÃO 1: emoji trocado para ícone de interruptor ⏻
+// Emoji ícone de interruptor ⏻
 // =========================================
 function alternarTema() {
   const body = document.body;
@@ -57,7 +57,7 @@ function enviarFormulario() {
 document.addEventListener('DOMContentLoaded', function () {
   const nav = document.querySelector('nav ul');
 
-  // Cria o botão do menu hamburguer para mobile
+  // Cria o botão do menu para mobile
   const btnMenu = document.createElement('button');
   btnMenu.textContent = '☰ Menu';
   btnMenu.id = 'btn-menu';
