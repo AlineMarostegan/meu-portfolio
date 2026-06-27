@@ -8,7 +8,10 @@
 </head>
 <body>
 
-  <!-- Menu de navegação fixo no topo -->
+  <!-- Menu de navegação fixo no topo da página, visível em todas as seções.
+     Contém 4 opções de navegação: Sobre mim, Formação, Portfólio e Contato.
+     O link da página atual recebe a classe "ativo" para destaque visual.
+     Inclui botão para alternar entre tema claro e escuro via JavaScript. -->
   <nav>
     <ul>
       <li><a href="index.html">Sobre mim</a></li>
@@ -16,17 +19,22 @@
       <li><a href="portfolio.html">Portfólio</a></li>
       <li><a href="contato.html">Contato</a></li>
     </ul>
-    <!-- Botão para alternar entre tema claro e escuro -->
+   <!-- Botão de alternância de tema claro/escuro.
+     Representado pelo ícone ⏻ (liga/desliga), permitindo ao usuário
+     alternar o visual da página com um único clique. -->
     <button id="btn-tema" onclick="alternarTema()">⏻ Tema Escuro</button>
   </nav>
 
-  <!-- Conteúdo principal da página Formação -->
+  <!-- Conteúdo principal da página Formação.
+     Apresenta toda a trajetória educacional e profissional
+     construída até o presente momento. -->
   <main>
     <section class="formacao">
 
       <h1>🎓 Formação</h1>
 
-      <!-- Formação acadêmica -->
+      <!-- Formação acadêmica oficial, incluindo graduação em andamento
+     e ensino médio concluído. Representa a base educacional formal. -->
       <h2>Formação Acadêmica</h2>
 
       <div class="card">
@@ -41,7 +49,9 @@
         <p>📅 Concluído em 2011</p>
       </div>
 
-      <!-- Cursos complementares -->
+      <!-- Cursos complementares realizados de forma independente,
+     com o objetivo de ampliar conhecimentos e habilidades
+     na área de Tecnologia da Informação. -->
       <h2>Cursos Complementares</h2>
 
       <div class="card">
@@ -54,7 +64,7 @@
         <p>Curso de design gráfico, desenvolvendo habilidades visuais e criativas.</p>
       </div>
 
-      <!-- Idiomas -->
+      <!-- Idioma oficial e odiomas em andamento -->
       <h2>Idiomas</h2>
 
       <div class="card">
@@ -77,7 +87,7 @@
 
   <!-- Rodapé da página -->
   <footer>
-    <p>© 2025 Aline Marostegan</p>
+    <p>© 2026 Aline Marostegan</p>
   </footer>
 
   <script src="script.js"></script>
